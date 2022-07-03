@@ -5,9 +5,11 @@ const AppFooter = () => {
     <div className='container'>
     <h1>Contact</h1>
     <div className="icons">
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-instagram"></i>
+    <i className="fa-brands fa-github"></i>
+    <i className="fa-brands fa-facebook"></i>
+    <i className="fa-brands fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2022 Yambao</p>
     </div>
     </div>
   )
