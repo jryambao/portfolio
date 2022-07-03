@@ -1,3 +1,6 @@
-.head{
-    color: red;
+
+.icons i{
+    font-size: 40px;
+    padding: 0px 10px;
+    cursor: pointer;
 }
