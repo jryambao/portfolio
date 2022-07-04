@@ -5,6 +5,7 @@ import App from './App';
 import Navbar from './Navbar/Navbar';
 import AppFooter from './AppFooter/AppFooter';
 import About from './About/About';
+import Passion from './passion/passion';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
   <Navbar/>
   <App />
   <About/>
+  <Passion/>
   <AppFooter/>
   </React.StrictMode>
 );

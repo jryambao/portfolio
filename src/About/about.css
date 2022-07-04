@@ -1,44 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-.container .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10rem;
-    font-family: 'Spartan', sans-serif;
+.about{
+    width: 100%;
+    padding: 250px 0px;
 }
 
-h1 {
+.about img{
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+}
+.about-text{
+    width: 100%;
+}
+.main{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 autp;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     font-family: 'Russo One', sans-serif;
     color: #088178;
 }
-
-.parag {
-
-    font-size: 20px;
-    width: 50%;
-    font-weight: 600;
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
 }
-.gallery {
-    width: 85vw;
-    height: 60vmin;
-    display: flex;
-    gap: 30px;
-    padding-bottom: 50px;
-
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 
-.gallery img {
-    height: 100%;
-    flex: 1;
-    object-fit: cover;
-    overflow: hidden;
+button{
+    padding: 18px 30px;
+    font-size: 16px;
+    border: none;
+    position: relative;
     cursor: pointer;
-    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    min-width: 200px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
     transition: all 0.3s;
 }
 
-.gallery img:hover {
-    flex: 4;
+button::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #ffffff71, transparent);
+    transform: all 1s;
+    z-index: -1;
+    transform: translateX(-120px) skew(-20deg);
+}
+button:hover::before{
+    transform: translateX(300px) skew(-20deg);
+}
+
+button:hover{
+    background: #088178;
 }

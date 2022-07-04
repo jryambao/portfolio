@@ -1,3 +1,8 @@
+.footer h1{
+    font-family: 'Russo One', sans-serif;
+    color: #088178;
+    font-size: 40px;
+}
 
 .icons i{
     font-size: 40px;
@@ -6,4 +11,11 @@
 }
 .icons p{
     margin-left: 20px;
+}
+
+.footer{
+    margin-top: 300px;
+}
+.icons i:hover{
+    color: #088178;
 }

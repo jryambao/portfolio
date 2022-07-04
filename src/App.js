@@ -9,7 +9,7 @@ export const App = () => {
       <h1>I'm <span>Ralph Yambao</span></h1>
       <h1>a web developer.</h1>
     </div>
-    <div className="image">
+    <div>
       <img className='img' src={profilepic} alt="" srcset="" />
     </div>  
     </div>
