@@ -10,7 +10,7 @@ export const App = () => {
       <h1>a web developer.</h1>
     </div>
     <div>
-      <img className='img' src={profilepic} alt="" srcset="" />
+      <img className='img' src={profilepic}/>
     </div>  
     </div>
   )

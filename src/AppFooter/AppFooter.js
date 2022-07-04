@@ -8,7 +8,7 @@ const AppFooter = () => {
     <i className="fa-brands fa-github"></i>
     <i className="fa-brands fa-facebook"></i>
     <i className="fa-brands fa-instagram"></i>
-    <i class="social-icon fas fa-envelope"></i>
+    <i className="social-icon fas fa-envelope"></i>
     <p>© copyright all right reserved</p>
     </div>
     </div>
